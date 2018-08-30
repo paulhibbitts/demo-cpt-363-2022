@@ -1,0 +1,21 @@
+---
+title: 'Home in Canvas LMS'
+show_sidebar: false
+cache_enable: false
+visible: false
+hide_front_edit_button: true
+page-inject:
+    processed_content: true
+hide_git_sync_repo_link: true
+---
+
+[plugin:content-inject](/home/_important-reminders)
+
+[plugin:page-inject](/home/_class-preparations)
+
+<hr>
+
+##### Paul's Web Pick of the Week
+[plugin:page-inject](/all-web-picks-of-the-week/pick-13)
+
+[View all of Paul's Web Picks of the Week](https://canvas.sfu.ca/courses/38847/pages/all-web-picks-of-the-week)
