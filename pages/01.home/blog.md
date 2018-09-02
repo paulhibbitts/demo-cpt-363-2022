@@ -40,4 +40,5 @@ modular_content:
 feed:
     description: 'Course Hub for CMPT 363 User Interface Design at Simon Fraser University'
     limit: 10
+protectEdit: true
 ---

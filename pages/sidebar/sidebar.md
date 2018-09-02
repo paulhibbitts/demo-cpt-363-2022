@@ -15,8 +15,6 @@ Wednesdays 2:30-4:00pm TASC 1 9409
 Virtual office hours chat:  
 Mondays 12:00-1:30pm   
 Fridays 12:00-1:00pm
-Another Name  
-<anothername@somewhere.edu>  
 
 ##### Canvas LMS
 [Calendar](https://sso.canvaslms.com/calendar)  
@@ -27,7 +25,7 @@ Another Name
 [Syllabus](https://sso.canvaslms.com/courses/1413912/assignments/syllabus)
 
 ##### Paul's Web Pick of the Week
-[plugin:page-inject](/all-web-picks-of-the-week/pick-07)
+[plugin:page-inject](/all-web-picks-of-the-week/latest)
 
 [View all Web Picks of the Week](/all-web-picks-of-the-week)
 
