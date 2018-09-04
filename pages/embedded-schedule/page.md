@@ -8,7 +8,7 @@ cache_enable: false
 visible: false
 ---
 
-#### :fa-calendar: Week 1 (May 9 - 14)
+#### :fa-calendar: Week 1 (May 9 - 15)
 **[What is usability and user experience design?](https://sso.canvaslms.com/courses/1413912/modules/items/19505423)**  
 :fa-desktop: [plugin:page-inject](/all-slides/week-01-1?template=partials/pdflinkonly)
 :fa-desktop: [plugin:page-inject](/all-slides/week-01-2?template=partials/pdflinkonly)
