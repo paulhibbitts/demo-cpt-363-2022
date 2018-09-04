@@ -1,14 +1,14 @@
 ---
 title: Schedule
 published: true
-show_sidebar: false
-visible: false
 hide_page_title: false
+show_sidebar: false
 hide_git_sync_repo_link: false
 cache_enable: false
+visible: false
 ---
 
-#### :fa-calendar: Week 1 (May 9 - 15)
+#### :fa-calendar: Week 1 (May 9 - 14)
 **[What is usability and user experience design?](https://sso.canvaslms.com/courses/1413912/modules/items/19505423)**  
 :fa-desktop: [plugin:page-inject](/all-slides/week-01-1?template=partials/pdflinkonly)
 :fa-desktop: [plugin:page-inject](/all-slides/week-01-2?template=partials/pdflinkonly)
