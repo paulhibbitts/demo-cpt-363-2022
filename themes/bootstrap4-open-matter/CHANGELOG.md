@@ -1,3 +1,73 @@
+# v0.9.99
+## 09/14/2018
+
+1. [](#improved)
+    * Adjusted page margins for smaller screens (and when embedding pages into other systems)
+
+# v0.9.98
+## 09/08/2018
+
+1. [](#improved)
+    * Updated various Git Sync-related blueprint text labels
+
+# v0.9.97
+## 09/08/2018
+
+1. [](#improved)
+    * Revised name of page frontmatter option to hide page summaries to 'hide_post_summary'
+    * Updated example pages in theme '_demo' folder
+
+# v0.9.96
+## 09/07/2018
+
+1. [](#improved)
+    * Added support for display of either blog item summary or content when hiding "View all of..." links
+
+# v0.9.95
+## 09/07/2018
+
+1. [](#improved)
+    * Revised page Blueprints to improve wording of various options
+    * Updated example pages in theme '_demo' folder
+    * Restored option to display "View all of..." links as Buttons
+
+# v0.9.94
+## 09/06/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v0.9.93
+## 09/06/2018
+
+1. [](#improved)
+    * Decreased file size of open course hub example images in theme '_demo' folder
+
+# v0.9.92
+## 09/05/2018
+
+1. [](#new)
+    * Added new open course hub examples in theme '_demo' folder
+1. [](#improved)
+    * Added 'topic' as default child type to newly created 'category' pages
+    * Added 'embedlycard' as default child type to newly created 'customcontentlist' pages
+    * Revised several page blueprint section names
+
+# v0.9.91
+## 09/04/2018
+
+1. [](#new)
+    * Added experimental Bootstrap button Shortcode ([button url="" label="" target="" type="" size="" classes=""])
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+    * Added placeholder 'category' and 'topic' page templates
+
+# v0.9.90
+## 09/02/2018
+
+1. [](#bugfix)
+    * Renamed blueprint for revised custom content list template name
+
 # v0.9.89
 ## 09/01/2018
 
@@ -36,8 +106,8 @@
 ## 08/29/2018
 
 1. [](#new)
-    * Added Twitter shortcode ([twitter url="" text="" theme="" height=""]), where theme can be 'light' or 'dark'
-    * Added PDF shortcode ([pdf url="")
+    * Added Twitter Shortcode ([twitter url="" text="" theme="" height=""]), where theme can be 'light' or 'dark'
+    * Added PDF Shortcode ([pdf url="")
     * Added new page template and blueprint ('Page') with optional display of sidebar (replaces previous 'fullwidthpage' and 'sidebarpage' templates and blueprints)
     * Added new HP5 page templates
 1. [](#improved)
