@@ -1,3 +1,110 @@
+# v1.1.5
+## 10/14/2018
+
+1. [](#bugfix)
+    * Corrected filename for Grava11y (Accessibility for Grav) Plugin
+
+## 10/14/2018
+
+1. [](#new)
+    * Added Grava11y (Accessibility for Grav) Plugin as dependency
+1. [](#improved)
+    * Adjusted Font Awesome icon spacing
+    * Updated example pages in theme '_demo' folder
+
+# v1.1.3
+## 10/14/2018
+
+1. [](#improved)
+    * Various accessibility improvements related to headings, contrast, and link text (update may require changing header levels used in pages, i.e. h5 to h2 etc.)
+    * Updated example pages in theme '_demo' folder
+
+# v1.1.2
+## 10/13/2018
+
+1. [](#improved)
+    * Added support for pagination controls when a text string filter for display of RSS items is used
+
+# v1.1.1
+## 10/12/2018
+
+1. [](#bugfix)
+    * Corrected check to hide or show RSS feed pagination controls
+
+# v1.1.0
+## 10/12/2018
+
+1. [](#new)
+    * Added support for optional text string filter for display of RSS items
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.0.9
+## 10/09/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+1. [](#bugfix)
+    * Restored check for option to hide Git Sync link in menu
+
+# v1.0.8
+## 10/08/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.0.7
+## 10/07/2018
+
+1. [](#improved)
+    * Removed dashes from all template and blueprint names
+    * Updated example pages in theme '_demo' folder
+
+# v1.0.6
+## 10/07/2018
+
+1. [](#new)
+    * Added blueprints for section-type pages
+1. [](#improved)
+    * Revised visual styling of active page indicator in sections nav
+    * Adjusted page title alignment for section-type pages
+    * Updated demo pages in theme '_demo' folder
+
+# v1.0.5
+## 10/06/2018
+
+1. [](#new)
+    * Added blueprints for section-type pages
+1. [](#improved)
+    * Revised visual styling of active page indicator in sections nav
+
+# v1.0.4
+## 10/06/2018
+
+1. [](#bugfix)
+    * Fixed current page check in section nav
+
+# v1.0.3
+## 10/05/2018
+
+1. [](#improved)
+    * Restored the display of a Creative Commons License and Git Sync links on section-type pages
+
+# v1.0.2
+## 10/05/2018
+
+1. [](#new)
+    * Added page frontmatter option (`sections_nav_align`) to display sections nav on left or right side of page
+    * Updated example pages in theme '_demo' folder
+
+# v1.0.1
+## 10/04/2018
+
+1. [](#new)
+    * Added new 'section' and 'subsection' page templates
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
 # v1.0.0
 ## 09/23/2018
 

@@ -15,7 +15,9 @@ content:
     order:
         by: date
         dir: desc
+    pagination: '1'
 hero_scroll: false
+hide_page_title: true
 show_sidebar: true
 hide_post_summary: true
 post_icon: calendar-o
