@@ -6,13 +6,10 @@ hide_from_post_list: false
 hide_git_sync_repo_link: true
 ---
 
-##### Course Wrap-up
-Guest Speaker [Dr. Parmit Chilana](http://hci.cs.sfu.ca/)   
+### Course Wrap-up
+Guest Speaker 
 
 ===
 
-##### Summaries and Questions  
+### Summaries and Questions  
 [Aug 1st Class One-minute Summaries](https://sso.canvaslms.com/courses/1413912/assignments/9519527)
-
-##### Guest Speaker Slides  
-[plugin:page-inject](/all-slides/week-13)

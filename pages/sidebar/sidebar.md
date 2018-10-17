@@ -6,11 +6,12 @@ visible: false
 ---
 
 ## Course Facilitator
-Paul Hibbitts  
-<paul@hibbittsdesign.org>  
+Some Name  
+<somename@somewhere.edu>   
 
 In-person office hours:  
-Wednesdays 2:30-4:00pm TASC 1 9409  
+Wednesdays 2:30-4:00pm  
+TASC 1 9409  
 
 Virtual office hours chat:  
 Mondays 12:00-1:30pm   

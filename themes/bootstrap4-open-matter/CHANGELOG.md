@@ -1,3 +1,27 @@
+# v1.1.9
+## 10/16/2018
+
+1. [](#bugfix)
+    * Updated example pages in theme '_demo' folder
+
+# v1.1.8
+## 10/16/2018
+
+1. [](#bugfix)
+    * Updated example pages in theme '_demo' folder
+
+# v1.1.7
+## 10/15/2018
+
+1. [](#bugfix)
+    * Corrected Header level for RSS Page item titles
+
+# v1.1.6
+## 10/15/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
 # v1.1.5
 ## 10/14/2018
 

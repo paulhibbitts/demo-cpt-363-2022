@@ -10,5 +10,5 @@ content:
         by: folder
         dir: asc
     limit: 0
-protectEdit: true
+protectEdit: true    
 ---
