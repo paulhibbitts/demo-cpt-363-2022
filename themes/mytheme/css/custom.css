@@ -12,10 +12,9 @@ Put your custom CSS in this file.
 }
 */
 
-
 /* CSS to better match font family with Canvas LMS*/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:light'); /* Changed for Canvas LMS */
+@import url('https://fonts.googleapis.com/css?family=Lato'); /* Changed for Canvas LMS */
 
 body {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -24,12 +23,15 @@ body {
 
 /* CSS to better match link colors with Canvas LMS*/
 
- a:not(btn) {
+a:not(.btn) {
   color: #008EE2;
-  text-decoration: none;
 }
-a:hover,
-a:focus {
+
+a:hover:not(.btn), a:focus:not(.btn) {
   color: #008EE2;
-  text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #3a8ddc!important;
+    border-color: #3a8ddc!important;
 }

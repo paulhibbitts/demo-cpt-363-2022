@@ -4,24 +4,34 @@ Theme CSS.
 ===============================================================================================================================
 */
 
-/* CSS to better match font family with Canvas LMS*/
+/* CSS to set NavBar items to white (place in custom.css and uncomment) */
 /*
+.bg-primary .navbar-nav .active>.nav-link
+{
+    color: #FFFFFF !important;
+}
+*/
+
+/* CSS to better match font family with Canvas LMS (place in custom.css and uncomment) */
+/*
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
 }
 */
 
-/* CSS to better match link colors with Canvas LMS*/
+/* CSS to better match link colors with Canvas LMS (place in custom.css and uncomment) */
 /*
- a:not(btn) {
+a:not(.btn) {
   color: #008EE2;
-  text-decoration: none;
 }
-a:hover,
-a:focus {
+a:hover:not(.btn), a:focus:not(.btn) {
   color: #008EE2;
-  text-decoration: underline;
+}
+.btn-primary {
+    background-color: #3a8ddc!important;
+    border-color: #3a8ddc!important;
 }
 */
 
@@ -135,6 +145,10 @@ h6, .h6 {
   height: 280px;
 }
 
+.card-columns {
+    column-count: 2;
+}
+
 @media only screen and (min-width: 960px) and (max-width: 1140px) {
   .myheader {
       height: 250px;
@@ -145,6 +159,9 @@ h6, .h6 {
   .myheader {
       height: 220px;
   }
+  .card-columns {
+      column-count: 1;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -154,16 +171,32 @@ h6, .h6 {
   .container {
       max-width:720px;
   }
+  .card-columns {
+      column-count: 1;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .myheader {
       height: 130px;
   }
+  .card-columns {
+      column-count: 1;
+  }
 }
 
 body {
-  margin-bottom: 270px!important;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+}
+
+.main-content {
+    min-height: 65%;
+    min-height: 65vh;
+    margin-top: 0;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
 }
 
 .fa {
@@ -262,6 +295,12 @@ h4, .h4, h5, .h5 {
   transform: rotate(-180deg);
 }
 
+.card-img-top {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
+}
+
 .blog-sidebar .nav-link {
     display: block;
     padding: .5rem 0rem;
@@ -332,5 +371,11 @@ figure.caption-right figcaption {
 }
 
 .footer {
-  height: 210px!important;
+  position: relative;
+  height: auto!important;
+  padding: 1em;
+}
+
+body.chromeless {
+  background-color: transparent;
 }

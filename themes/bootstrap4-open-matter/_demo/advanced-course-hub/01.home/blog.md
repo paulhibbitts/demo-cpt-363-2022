@@ -1,8 +1,9 @@
 ---
 title: Home
+published: true
+visible: false
 body_classes: 'header-image fullwidth'
 child_type: item
-visible: true
 content:
     items: '@self.children'
     limit: 7
@@ -26,6 +27,5 @@ modular_content:
 feed:
     description: 'Grav CMS Open Matter Course Hub Description'
     limit: 10
-protectEdit: true
 hide_page_title: true
 ---

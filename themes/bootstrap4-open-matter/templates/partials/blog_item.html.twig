@@ -10,9 +10,9 @@
 
         {% if page.header.link %}
             <h2>
-              {% if page.header.continue_link is not sameas(false) %}
+              {% if page.header.continue_link is not same as(false) %}
                   <a href="{{ page.header.link }}"><i class="fa fa-angle-double-right"></i>{{ page.title }}</a>
-              {% endif %}            
+              {% endif %}
             </h2>
         {% else %}
         {# added page title icon - hibbittsdesign.org #}
@@ -34,7 +34,9 @@
               <class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a>
             {% endif %}
           </h1>
-        {% endif %}
+          {% else %}
+            <h1 class="hidden">{{page.title}}</h1>
+          {% endif %}
         {% endif %}
 
         <div class="list-blog-meta my-3">
@@ -55,6 +57,8 @@
             {% endif %}
 
         </div>
+
+        {% if not (grav.uri.param('hideheaderimage')) %}
 
         {% if big_header %}
             {{ page.media.images|first.cropResize(1200,600).html('','blog-header-image') }}
@@ -98,13 +102,15 @@
 
               {% endif %}
             {% endif %}
+
+          {% endif %}
           </div>
 
     <div class="list-blog-padding">
 
       {% if truncate and page.summary != page.content %}
-            <p>{{ page.summary }}</p>
-              {% if page.header.continue_link is not sameas(false) %}
+            <p>{{ page.summary|raw }}</p>
+              {% if page.header.continue_link is not same as(false) %}
                 <p>
                 {% if page.parent.header.continue_link_as_button %}
                   <a class="btn btn-primary" href="{{ page.url }}">{{ 'BLOG.ITEM.VIEW_ALL_OF'|t }}
@@ -120,9 +126,9 @@
             {% if page.summary != page.content %}
                 <p>{{ page.content|truncate(550) }}</p>
             {% else %}
-                <p>{{ page.content }}</p>
+                <p>{{ page.content|raw }}</p>
             {% endif %}
-            {% if page.header.continue_link is not sameas(false) %}
+            {% if page.header.continue_link is not same as(false) %}
               <p>
                {% if page.parent.header.continue_link_as_button %}
                  <a class="btn btn-primary" href="{{ page.url }}">{{ 'BLOG.ITEM.VIEW_ALL_OF'|t }}
@@ -142,15 +148,15 @@
             {% endif %}
 
             {# check summary only flag - hibbittsdesign.org #}
-            {% if not (grav.uri.param('summaryonly')) and not (grav.uri.param('onlysummary')) %}
+            {% if not (grav.uri.param('summaryonly') or grav.uri.param('onlysummary')) %}
               {% if content is not empty  %}
-                    <p>{{ content }}</p>
+                    <p>{{ content|raw }}</p>
               {% else %}
-                  <p>{{ page.summary }}</p>
+                  <p>{{ page.summary|raw }}</p>
               {% endif %}
 
               {# Creative Commons License -  hibbittsdesign.org #}
-              {% if theme_var('cc_license.enabled') and not (grav.uri.param('onlysummary')) %}
+              {% if not (grav.uri.param('chromeless') or grav.uri.param('embedded')) and not(theme_var('chromeless.enabled')) and (theme_var('cc_license.enabled') and not(page.header.hide_cc_license) and not (grav.uri.param('onlysummary') or grav.uri.param('summaryonly'))) %}
                 <p>{% include 'partials/creative_commons_license.html.twig' %}</p>
               {% endif %}
 
@@ -167,13 +173,13 @@
 
             {% else %}
 
-              {% if page.header.continue_link is not sameas(false) %}
-                <p>{{ page.summary }}</p>
+              {% if page.header.continue_link is not same as(false) %}
+                <p>{{ page.summary|raw }}</p>
                 <p>
                 {% if page.parent.header.continue_link_as_button %}
-                  <a class="topwindow btn btn-primary" href="{{ page.url }}">{{ 'BLOG.ITEM.VIEW_ALL_OF'|t }}
+                  <a class="btn btn-primary topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">{{ 'BLOG.ITEM.VIEW_ALL_OF'|t }}
                 {% else %}
-                  <a href="{{ page.url }}">{{ 'BLOG.ITEM.VIEW_ALL_OF'|t }}
+                  <a class="topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">{{ 'BLOG.ITEM.VIEW_ALL_OF'|t }}
                 {% endif %}
                 {{ page.title }}
                 <i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -185,7 +191,7 @@
         {% endif %}
 
         {# added check for content display flag - hibbittsdesign.org #}
-        {% if show_prev_next and not (grav.uri.param('chromeless') or grav.uri.param('embedded')) %}
+        {% if show_prev_next and not (grav.uri.param('chromeless') or grav.uri.param('embedded') or theme_var('chromeless.enabled')) %}
             <p class="text-center mt-4">
                 {% if not page.isLast %}
                     <a class="btn btn-primary" href="{{ page.prevSibling.url }}"><i class="fa fa-chevron-left"></i> {{ 'BLOG.ITEM.PREV_POST'|t }}</a>

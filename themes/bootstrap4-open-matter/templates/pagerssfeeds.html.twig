@@ -51,7 +51,7 @@
           {% set start = currentPage * perPage - perPage %}
           {% set paginationLimit = perPage - 1 %}
 
-          {{ page.content }}
+          {{ page.content|raw }}
 
           {% for index, item in feed_items|sort_by_key('sortDate')|reverse|slice(start, perPage) %}
             <h2>
@@ -59,7 +59,7 @@
             </h2>
             <time>{{ item.date.date|date("m/d/Y") }}</time>, {{ item.retrievedTitle }}
             {% if page.header.rss_feed_header_images and not (page.header.rss_feed_preview_paragraphs == 'all') %}
-              <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+              <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/')|raw }}</p>
             {% endif %}
             {% set paragraphs = item.content | split('</p>') %}
             {% set firstParagraph = paragraphs[0] ~ '</p>' %}
@@ -132,7 +132,7 @@
         {% endif %}
 
         {# Creative Commons License -  hibbittsdesign.org #}
-        {% if theme_var('cc_license.enabled') and not (page.header.hide_cc_license) %}
+        {% if not (grav.uri.param('chromeless') or grav.uri.param('embedded')) and not(theme_var('chromeless.enabled')) and (theme_var('cc_license.enabled') and not(page.header.hide_cc_license)) %}
           <p>{% include 'partials/creative_commons_license.html.twig' %}</p>
         {% endif %}
 
@@ -140,7 +140,7 @@
         {% if ( page.header.git_sync_repo_link_display is defined and page.header.git_sync_repo_link_display == 'page' ) or (( config.site.gitrepo.editlinklocation == 'page' and page.header.git_sync_repo_link_display is not defined ) and not (page.header.hide_git_sync_repo_link)) %}
           <hr>
           <br>
-          {% include 'partials/gitrepo_link_note.html.twig' %}
+          {% include 'partials/git_sync_repo_link_note.html.twig' %}
           <br>
         {% endif %}
         </div>
