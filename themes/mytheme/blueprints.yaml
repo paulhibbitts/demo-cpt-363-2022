@@ -23,7 +23,7 @@ form:
 
             chromelessoptions:
                 type: section
-                title: 'Chromeless Site'
+                title: 'Chromeless Site (i.e. Embedded)'
                 underline: true
             chromeless.enabled:
                 type: toggle
@@ -74,8 +74,8 @@ form:
                     type: text
             git_sync_repo_link:
                 type: input.url
-                label: 'Custom Git Repository Tree URL'
-                help: 'Enter the URL that leads to the pages folder of your Git Repository.'
+                label: 'Custom Git Repository URL'
+                help: 'Enter the URL that leads to the Pages folder in your Git Repository.'
                 description: 'URL path to a Git repository up to, but not including, ''/pages'' and everything following it. For example, ''https://github.com/paulhibbitts/demo-grav-course-hub/tree/master''.'
                 validate:
                     type: URL
@@ -89,10 +89,10 @@ form:
                 type: section
                 title: 'Git Sync Site Theme Files Link'
                 underline: true
-            git_sync.edit_theme_link_location:
+            git_sync_edit_theme_link_location:
                 type: select
                 label: 'Location of Site Theme Files Link'
-                default: None
+                default: none
                 size: small
                 options:
                     footer: Footer
@@ -113,7 +113,7 @@ form:
                 label: 'H5P Content Embed Source URL'
                 default: 'https://h5p.org/h5p/embed/'
                 help: 'Enter the embed source URL path up to, but not including, the H5P Content ID.'
-                description: 'H5P embed source URL path up to, but not including, the Content ID. For example, the URL for content on h5p.org URL would be ''https://h5p.org/h5p/embed/''.'
+                description: 'H5P embed source URL path up to, but not including, the Content ID. For example, ''https://h5p.org/h5p/embed/'' or ''https://yourorganization.h5p.com/content/'' or ''https://yourWPsite/h5p/wp-admin/admin-ajax.php?action=h5p_embed&id=''.'
                 validate:
                     type: URL
             creativecommonslicenseoptions:
@@ -164,17 +164,6 @@ form:
                 type: section
                 title: 'Menubar'
                 underline: true
-            hidehomemenulink:
-                type: toggle
-                label: 'Hide Homepage Link in Menubar'
-                help: 'Determines if the link to the Homepage is included in the menubar.'
-                default: 0
-                highlight: 1
-                options:
-                    1: 'Yes'
-                    0: 'No'
-                validate:
-                    type: bool
             displaycustommenus.enabled:
                 type: toggle
                 label: 'Display Custom Menu Items'
@@ -213,6 +202,7 @@ form:
                             _parent: 'Open in the parent frame'
                             _top: 'Open in the full body of the window'
                             _self: 'Open in the same frame as clicked'
+
         bootstrap4_options:
           type: tab
           title: Bootstrap4  Options
@@ -231,9 +221,7 @@ form:
               options:
                 'default': "Default"
                 'cerulean': "Cerulean"
-                'cloudhouse': "Cloudhouse"
                 'cosmo': "Cosmo"
-                'csiogold': 'Csiogold'
                 'cyborg': "Cyborg"
                 'darkly': "Darkly"
                 'flatly': "Flatly"
@@ -245,8 +233,6 @@ form:
                 'minty': "Minty"
                 'pulse': "Pulse"
                 'sandstone': "Sandstone"
-                'schwoblue': "Schwoblue"
-                'schwobrown': "Schwobrown"
                 'sketchy': "Sketchy"
                 'simplex': "Simplex"
                 'slate': "Slate"
@@ -296,7 +282,6 @@ form:
                 options:
                     top: Top
                     sticky-top: 'Sticky Top'
-                    fixed-bottom: 'Fixed Bottom'
             navbar_breakpoint:
                 type: select
                 label: 'NavBar Breakpoint'
