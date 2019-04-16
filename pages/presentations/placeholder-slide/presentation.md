@@ -36,7 +36,7 @@ title: Placeholder Slide
 
 # Slides Placeholder
 
-### [fa=fa-rocket] Topic Two
+### Topic Two
 
 ---
 
