@@ -1,3 +1,24 @@
+# v2.0.3
+## 04/15/2019
+
+1. [](#improved)
+    * Added option to show/hide custom content item links
+    * Updated example pages in theme '_demo' folder
+
+# v2.0.2
+## 04/14/2019
+
+1. [](#improved)
+    * Improved compatibility of custom content list pages with previous theme releases
+    * Updated example pages in theme '_demo' folder
+
+# v2.0.1
+## 04/14/2019
+
+1. [](#improved)
+    * Added support for optional direct link on iFrame page and content titles
+    * Updated example pages in theme '_demo' folder
+
 # v2.0.0
 ## 04/12/2019
 

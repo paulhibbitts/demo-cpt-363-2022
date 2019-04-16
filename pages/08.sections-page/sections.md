@@ -2,14 +2,16 @@
 title: 'Sections Page'
 published: true
 hide_page_title: true
+hide_git_sync_repo_link: false
+sections_nav_align: right
+hide_next_prev_page_buttons: false
 show_sidebar: false
-sections_nav_align: left
 content:
     items: '@self.children'
     order:
         by: folder
         dir: asc
-    limit: 0    
+    limit: 0
 ---
 
 # Sections
