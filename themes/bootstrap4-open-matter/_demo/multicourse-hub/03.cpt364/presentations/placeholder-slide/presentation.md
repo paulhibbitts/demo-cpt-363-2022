@@ -1,15 +1,14 @@
 ---
-title: 'Placeholder Slide'
+title: Placeholder Slide
 ---
 
-[.header: alignment(center)]
 [.text: alignment(center)]
 
 # CPT 364
 
 ### Slides Placeholder
 
-> “A work in progress. And the possibilities are endless.”
+> > “A work in progress. And the possibilities are endless.”
 -- Elizabeth Eulberg
 
 ---

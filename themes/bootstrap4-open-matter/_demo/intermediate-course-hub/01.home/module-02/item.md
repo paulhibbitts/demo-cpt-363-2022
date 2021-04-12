@@ -31,6 +31,9 @@ The Process of UX Design
 ### Handouts
 [Product Reaction Cards](https://sso.canvaslms.com/courses/1413912/files/folder/Handouts/Product%20Reaction%20Cards)  
 
+### Quick Quiz
+[h5p id="213956"]
+
 ### Assignments
 [Course Reflection Log](https://sso.canvaslms.com/courses/1413912/assignments/9519528)  
 

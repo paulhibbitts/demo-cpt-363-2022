@@ -32,5 +32,8 @@ Strategic UX Design
 ### Assignments
 [Journey Map](https://sso.canvaslms.com/courses/1413912/assignments/9519531)  
 
+### Quick Quiz
+[h5p id="213958"]
+
 ### Required Reading  
 [embedly url="https://www.aytech.ca/blog/user-journey-map/"]

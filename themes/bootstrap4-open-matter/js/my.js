@@ -15,11 +15,20 @@ $(document).ready(function(){
           newurl = newurl + "/chromeless:true";
       }
 
+      if (url.indexOf("embedded:true") >= 0) {
+          newurl = newurl + "/embedded:true";
+      }
+
       if (url.indexOf("hidepagetitle:true") >= 0) {
           newurl = newurl + "/hidepagetitle:true";
       }
 
-      window.location.href = newurl;
+      if (e.ctrlKey || e.metakey) {
+        window.open(newurl,'_blank');
+      } else {
+        window.location.href = newurl;
+      }
+
     }
   });
 });

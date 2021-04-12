@@ -23,26 +23,26 @@ body {
 
 /* CSS to better match link colors with Canvas LMS (place in custom.css and uncomment) */
 /*
-a:not(.btn) {
+a:not(.btn):not(.badge):not(.navbar-brand) {
   color: #008EE2;
 }
-a:hover:not(.btn), a:focus:not(.btn) {
+a:hover:not(.btn):not(.badge):not(.navbar-brand):not(.nav-link), a:focus:not(.btn):not(.badge):not(.navbar-brand):not(.nav-link) {
   color: #008EE2;
 }
 .btn-primary {
-    background-color: #3a8ddc!important;
-    border-color: #3a8ddc!important;
+  color: #fff;
+  background-color: #3a8ddc!important;
+  border-color: #3a8ddc!important;
 }
 */
 
-a:not(btn) {
+a:not(.btn, .badge, .navbar-brand, .dropdown-item) {
   color: #1b6ec2;
   text-decoration: none;
 }
 
-a:hover:not(btn), a:focus:not(btn) {
-  color: #12487f;
-  text-decoration: underline;
+a:hover:not(.btn, .badge, .navbar-brand, .nav-link), a:focus:not(.btn, .badge, .navbar-brand, .nav-link) {
+  color: #008EE2;
 }
 
 .page-link {
@@ -51,7 +51,7 @@ a:hover:not(btn), a:focus:not(btn) {
 
 .page-item.active .page-link {
     z-index: 1;
-    color: #fff;
+    color: #fff!important;
     background-color: #1b6ec2;
     border-color: #1b6ec2;
 }
@@ -145,8 +145,12 @@ h6, .h6 {
   height: 280px;
 }
 
-.card-columns {
-    column-count: 2;
+.card-deck > .card
+{
+    min-width: 30%;
+    flex-wrap: wrap;
+    flex: initial;
+    margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1140px) {
@@ -159,9 +163,6 @@ h6, .h6 {
   .myheader {
       height: 220px;
   }
-  .card-columns {
-      column-count: 1;
-  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -171,17 +172,11 @@ h6, .h6 {
   .container {
       max-width:720px;
   }
-  .card-columns {
-      column-count: 1;
-  }
 }
 
 @media only screen and (max-width: 576px) {
   .myheader {
       height: 130px;
-  }
-  .card-columns {
-      column-count: 1;
   }
 }
 
@@ -191,8 +186,8 @@ body {
 }
 
 .main-content {
-    min-height: 65%;
-    min-height: 65vh;
+    min-height: 85%;
+    min-height: 85vh;
     margin-top: 0;
     padding-top: 2rem;
     padding-bottom: 5rem;
@@ -230,12 +225,11 @@ ol.breadcrumb {
   padding-left: 0;
 }
 
-.listbullet li {
+.listbullet ul li {
   padding-left: 1em;
-  text-indent: -1em;
 }
 
-.listbullet li:before {
+.listbullet ul li:before {
   content: '\2713';
   padding-right: 5px;
 }
@@ -297,7 +291,7 @@ h4, .h4, h5, .h5 {
 
 .card-img-top {
     width: 100%;
-    height: 18vw;
+    height: 14vw;
     object-fit: cover;
 }
 
@@ -313,12 +307,14 @@ h4, .h4, h5, .h5 {
 img.left {
   display:inline;
   float:left;
-  margin:5px 15px 5px 0;
+  margin:1rem 15px 5px 0;
+  max-width: 50%;
 }
 
 img.right {
   float:right;
-  margin:5px 0 5px 15px;
+  margin:1rem 0 5px 15px;
+  max-width: 50%;
 }
 
 img.center {
@@ -339,12 +335,14 @@ figure.image-caption figcaption {
 
 figure.figure-right {
     float:right;
-    margin:5px 0 5px 15px;
+    margin:1rem 0 5px 15px;
+    max-width: 50%;
 }
 
 figure.figure-left {
     float: left;
-    margin:5px 15px 5px 0;
+    margin:1rem 15px 5px 0;
+    max-width: 50%;
 }
 
 figure.caption-left figcaption {
@@ -353,6 +351,10 @@ figure.caption-left figcaption {
 
 figure.caption-right figcaption {
     text-align: right;
+}
+
+.presentation-list-item {
+    padding-bottom: .25rem;
 }
 
 .pagination {
@@ -378,4 +380,34 @@ figure.caption-right figcaption {
 
 body.chromeless {
   background-color: transparent;
+}
+
+.topics h3 {
+    width: 2.5em;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 1.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background: #666666;
+}
+
+.topics .anchorjs-link {
+    display: none;
+}
+
+div.keeptogether {
+   display: inline-block;
+   width: 100%;
+}
+
+.chromeless-show {
+    display: none;
+}
+
+.chromeless-hide {
+    display: block;
 }
