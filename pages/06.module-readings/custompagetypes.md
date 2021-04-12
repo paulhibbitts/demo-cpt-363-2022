@@ -1,8 +1,8 @@
 ---
-title: Module Readings
+title: 'Module Readings'
 published: true
 child_type: embedlycard
-visible: true
+visible: false
 content:
     order:
         by: default
@@ -16,4 +16,7 @@ display_content_title: false
 display_content_titles_link: false
 display_content_links: false
 hide_git_sync_repo_link: true
+hide_page_title: false
+display_content_titles: false
 ---
+
