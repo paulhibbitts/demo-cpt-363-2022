@@ -23,7 +23,7 @@ hide_git_sync_repo_link: true
 [May 9th Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
-[presentation="cpt363-advanced/presentations/module-01"]
+<div class="grav-youtube"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRnnRFelgw1ksq_p8Eryg3dnyLCRRLPf5fBgdwdv9p-tCIwcxqWvzDGrGbjxGHL7HqEJVpmV26ntk3a/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
 
 ### Supplemental Materials  
 [Elements of User Experience by Jesse James Garrett](https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf)  
