@@ -13,14 +13,14 @@ hide_git_sync_repo_link: true
 
 ## [fa="calendar-o"][/fa]Week 2 (May 16 - 22)
 **[What does a holistic user experience design process look like?](https://canvas.sfu.ca/courses/55288/modules/items/1561555)**  
-[fa="pencil"][/fa][Course Reflection Log](https://canvas.sfu.ca/courses/55288/assignments) due Aug 3rd  
+[fa="pencil"][/fa][Course Reflection Log](https://canvas.sfu.ca/courses/55288/assignments) [badge label="Fri Aug 3rd 11:59pm PT"][/badge]  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-02?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][The Evolution of UX Process Methodology](https://uxplanet.org/the-evolution-of-ux-process-methodology-47f52557178b)  
 
 ## [fa="calendar-o"][/fa]Week 3 (May 23 - 29)
 **[How to make more strategic design decisions?](https://canvas.sfu.ca/courses/55288/modules/items/1561556)**   
-[fa="pencil"][/fa][Journey Map](https://canvas.sfu.ca/courses/38847/assignments/292821) assignment due Jun 12th  
-[fa="folder"][/fa][Informed Consent Materials]((https://canvas.sfu.ca/courses/55288/files)  
+[fa="pencil"][/fa][Journey Map](https://canvas.sfu.ca/courses/38847/assignments/292821) [badge label="Tue Jun 12 11:59pm PT"][/badge]  
+[fa="folder"][/fa][Informed Consent Materials](https://canvas.sfu.ca/courses/55288/files)  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-03?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][What is a User Journey Map?](https://www.aytech.ca/blog/user-journey-map/)  
 
