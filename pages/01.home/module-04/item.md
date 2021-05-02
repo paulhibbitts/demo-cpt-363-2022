@@ -9,14 +9,14 @@ header_image_creditlink: 'https://www.flickr.com/photos/21218849@N03/6968244538/
 header_image_alt_text: 'Paper-based prototype'
 ---
 
-## How to explore and communicate possible design solutions?
+## How to explore the problem space?
 [Forms and Methods](../../presentations/module-04#/module-04-4)  
 [Design Scenarios](../../presentations/module-04#/module-04-5)  
 [Sketching and Storyboarding](../../presentations/module-04#/module-04-6)  
 
 ===
 
-## **How to explore and communicate possible design solutions?**
+## **How to explore the problem space?**
 
 ### Summaries and Questions  
 [May 30th Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)

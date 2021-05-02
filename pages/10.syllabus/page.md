@@ -26,7 +26,7 @@ _Effectively working in a team and both verbal and written communication skills 
 1. How to conduct a usability inspection?
 1. How to plan, conduct, and summarize usability tests?
 1. How to understand and communicate people's needs and behaviours?
-1. How to explore and communicate possible design solutions?
+1. How to explore the problem space?
 1. How to design products for how people think, learn and feel?
 1. How to design for mobile and multi-device usage?
 1. What are the essentials of effective visual communication?

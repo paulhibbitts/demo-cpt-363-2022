@@ -25,7 +25,7 @@ hide_git_sync_repo_link: true
 [fa="book"][/fa][What is a User Journey Map?](https://www.aytech.ca/blog/user-journey-map/)  
 
 ## [fa="calendar-o"][/fa]Week 4 (May 30 - Jun 5)
-**[How to explore and communicate possible design solutions?](https://canvas.sfu.ca/courses/55288/modules/items/1561557)**  
+**[How to explore the problem space?](https://canvas.sfu.ca/courses/55288/modules/items/1561557)**  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-04?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][The Skeptic’s Guide To Low-Fidelity Prototyping](https://www.smashingmagazine.com/2014/10/the-skeptics-guide-to-low-fidelity-prototyping/)  
 [fa="users"][/fa]In-class office hours (tentative)  
