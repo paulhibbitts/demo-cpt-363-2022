@@ -10,7 +10,7 @@ hide_git_sync_repo_link: false
 
 ## What’s Happening This Week
 
-### How to make more strategic design decisions?
+### How to explore the problem space?
 
 #### Important Reminders
 * [Journey Map](https://canvas.sfu.ca/courses/55288/assignments) assignment [badge label="Tue Jun 12 11:59pm PT"][/badge]
