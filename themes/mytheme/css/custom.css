@@ -25,11 +25,11 @@ body {
 /* CSS to better match link colors with Canvas LMS*/
 
 a:not(.btn) {
-  color: #008EE2;
+  color: #0374B5;
 }
 
 a:hover:not(.btn), a:focus:not(.btn) {
-  color: #008EE2;
+  color: #0374B5;
 }
 
 .btn-primary {
