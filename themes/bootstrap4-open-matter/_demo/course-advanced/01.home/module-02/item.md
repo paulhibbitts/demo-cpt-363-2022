@@ -28,7 +28,7 @@ header_image_alt_text: 'Information architecture'
 ![CPT-363 UX Design Process/Toolkit Diagram](ux-design-process-v4.png)
 
 ### Handouts
-[Product Reaction Cards]((https://canvas.sfu.ca/courses/55288/files)  
+[Product Reaction Cards](https://canvas.sfu.ca/courses/55288/files)  
 
 ### Quick Quiz
 [h5p]https://h5p.org/h5p/embed/214115[/h5p]

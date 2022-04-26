@@ -17,7 +17,7 @@ published: true
 ## [[fa="calendar-o"][/fa]Week 3 (May 23 - 29)](../home/module-03)
 **How to make more strategic design decisions?**   
 [fa="pencil"][/fa][Journey Map](https://canvas.sfu.ca/courses/38847/assignments/292821) assignment due Jun 12th  
-[fa="folder"][/fa][Informed Consent Materials]((https://canvas.sfu.ca/courses/55288/files)  
+[fa="folder"][/fa][Informed Consent Materials](https://canvas.sfu.ca/courses/55288/files)  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-03?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][What is a User Journey Map?](https://www.aytech.ca/blog/user-journey-map/)  
 
@@ -36,7 +36,7 @@ published: true
 ## [fa="calendar-o"][/fa]Week 6 (Jun 13 - 19)
 **How to conduct a usability inspection?**   
 [fa="pencil"][/fa][Usability Inspection](https://canvas.sfu.ca/courses/55288/assignments) assignment due Jun 30th  
-[fa="file"][/fa][Usability Inspection Report Template]((https://canvas.sfu.ca/courses/55288/files)  
+[fa="file"][/fa][Usability Inspection Report Template](https://canvas.sfu.ca/courses/55288/files)  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-06?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][An Overview of Expert Heuristic Evaluations](https://www.uxmatters.com/mt/archives/2014/06/an-overview-of-expert-heuristic-evaluations.php)  
 
@@ -48,8 +48,8 @@ published: true
 ## [fa="calendar-o"][/fa]Week 8 (Jun 27 - Jul 3)
 **How to understand and communicate people's needs and behaviors?**   
 [fa="pencil"][/fa][Project User Research Report](https://canvas.sfu.ca/courses/55288/assignments) due Jul 17th  
-[fa="file-o"][/fa][Team Member Evaluation]((https://canvas.sfu.ca/courses/55288/files) for  assignment #4 due in class Jul 18th  
-[fa="folder"][/fa][Informed Consent Materials]((https://canvas.sfu.ca/courses/55288/files)  
+[fa="file-o"][/fa][Team Member Evaluation](https://canvas.sfu.ca/courses/55288/files) for  assignment #4 due in class Jul 18th  
+[fa="folder"][/fa][Informed Consent Materials](https://canvas.sfu.ca/courses/55288/files)  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-08?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][A Five-Step Process For Conducting User Research](http://www.smashingmagazine.com/2013/09/5-step-process-conducting-user-research/)  
 [fa="users"][/fa]In-class office hours (tentative)  
@@ -66,8 +66,8 @@ TBD
 ## [fa="calendar-o"][/fa]Week 11 (Jul 18 - 24)
 **What are the essentials of effective visual communication?**   
 [fa="pencil"][/fa][Project Usability Tested Mockups](https://canvas.sfu.ca/courses/55288/assignments) due Jul 31st    
-[fa="file-o"][/fa][Team Member Evaluation]((https://canvas.sfu.ca/courses/55288/files) for assignment #5 due in class Aug 1st  
-[fa="folder"][/fa][Informed Consent Materials]((https://canvas.sfu.ca/courses/55288/files)  
+[fa="file-o"][/fa][Team Member Evaluation](https://canvas.sfu.ca/courses/55288/files) for assignment #5 due in class Aug 1st  
+[fa="folder"][/fa][Informed Consent Materials](https://canvas.sfu.ca/courses/55288/files)  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-11?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][Accessibility for Visual Design](http://www.uxbooth.com/articles/accessibility-visual-design/)  
 

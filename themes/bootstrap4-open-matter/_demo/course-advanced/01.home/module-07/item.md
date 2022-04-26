@@ -25,7 +25,7 @@ header_image_alt_text: 'iOS family of devices pile (2015)'
 [presentation="presentations/module-07"]
 
 ### Handouts
-[One-Page Touch Interaction Design Checklist]((https://canvas.sfu.ca/courses/55288/files)  
+[One-Page Touch Interaction Design Checklist](https://canvas.sfu.ca/courses/55288/files)  
 [Responsive Web Design Sketch Sheets](http://jeremypalford.com/wp-content/uploads/2013/07/JPA-Responsive-Web-Design-Sketch-Sheets.zip)  
 
 ### Required Reading  

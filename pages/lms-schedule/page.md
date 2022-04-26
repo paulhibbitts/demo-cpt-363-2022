@@ -40,7 +40,7 @@ hide_git_sync_repo_link: true
 ## [fa="calendar-o"][/fa]Week 6 (Jun 13 - 19)
 **[How to conduct a usability inspection?](https://canvas.sfu.ca/courses/55288/modules/items/1561559)**   
 [fa="pencil"][/fa][Usability Inspection](https://canvas.sfu.ca/courses/55288/assignments) assignment due Jun 30th  
-[fa="file"][/fa][Usability Inspection Report Template]((https://canvas.sfu.ca/courses/55288/files)  
+[fa="file"][/fa][Usability Inspection Report Template](https://canvas.sfu.ca/courses/55288/files)  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-06?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][An Overview of Expert Heuristic Evaluations](https://www.uxmatters.com/mt/archives/2014/06/an-overview-of-expert-heuristic-evaluations.php)  
 
@@ -52,8 +52,8 @@ hide_git_sync_repo_link: true
 ## [fa="calendar-o"][/fa]Week 8 (Jun 27 - Jul 3)
 **[How to understand and communicate people's needs and behaviors?](https://canvas.sfu.ca/courses/55288/modules/items/1561561)**   
 [fa="pencil"][/fa][Project User Research Report](https://canvas.sfu.ca/courses/55288/assignments) due Jul 17th  
-[fa="file-o"][/fa][Team Member Evaluation]((https://canvas.sfu.ca/courses/55288/files) for  assignment #4 due in class Jul 18th  
-[fa="folder"][/fa][Informed Consent Materials]((https://canvas.sfu.ca/courses/55288/files)  
+[fa="file-o"][/fa][Team Member Evaluation](https://canvas.sfu.ca/courses/55288/files) for  assignment #4 due in class Jul 18th  
+[fa="folder"][/fa][Informed Consent Materials](https://canvas.sfu.ca/courses/55288/files)  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-08?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][A Five-Step Process For Conducting User Research](http://www.smashingmagazine.com/2013/09/5-step-process-conducting-user-research/)  
 [fa="users"][/fa]In-class office hours (tentative)  
@@ -70,8 +70,8 @@ TBD
 ## [fa="calendar-o"][/fa]Week 11 (Jul 18 - 24)
 **[What are the essentials of effective visual communication?](https://canvas.sfu.ca/courses/55288/modules/items/1561564)**   
 [fa="pencil"][/fa][Project Usability Tested Mockups](https://canvas.sfu.ca/courses/55288/assignments) due Jul 31st    
-[fa="file-o"][/fa][Team Member Evaluation]((https://canvas.sfu.ca/courses/55288/files) for assignment #5 due in class Aug 1st  
-[fa="folder"][/fa][Informed Consent Materials]((https://canvas.sfu.ca/courses/55288/files)  
+[fa="file-o"][/fa][Team Member Evaluation](https://canvas.sfu.ca/courses/55288/files) for assignment #5 due in class Aug 1st  
+[fa="folder"][/fa][Informed Consent Materials](https://canvas.sfu.ca/courses/55288/files)  
 [fa="desktop"][/fa][plugin:page-inject](../presentations/module-11?template=partials/presentation_iframelinkonly)
 [fa="book"][/fa][Accessibility for Visual Design](http://www.uxbooth.com/articles/accessibility-visual-design/)  
 
