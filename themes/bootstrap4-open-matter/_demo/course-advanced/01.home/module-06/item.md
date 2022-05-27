@@ -30,7 +30,7 @@ header_image_alt_text: 'The Pay and Go box at the new North Oshawa medical clini
 
 ### Assignments
 [Usability Inspection](https://canvas.sfu.ca/courses/55288/assignments)   
-[Usability Inspection Report Template](https://canvas.sfu.ca/courses/55288/files)
+[Usability Inspection Report Template]((https://canvas.sfu.ca/courses/55288/files)
 
 ### Required Reading  
 [embedly]https://www.uxmatters.com/mt/archives/2014/06/an-overview-of-expert-heuristic-evaluations.php[/embedly]

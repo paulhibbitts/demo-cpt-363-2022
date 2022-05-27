@@ -26,7 +26,7 @@ header_image_alt_text: 'Interview in coffee shop'
 
 ### Assignments
 [User Research Report](https://canvas.sfu.ca/courses/55288/assignments)  
-[Informed Consent Materials](https://canvas.sfu.ca/courses/55288/files)  
+[Informed Consent Materials]((https://canvas.sfu.ca/courses/55288/files)  
 
 ### Supplemental Materials  
 [What People Are Really Doing Video](http://vimeo.com/album/169777/video/7099570)  

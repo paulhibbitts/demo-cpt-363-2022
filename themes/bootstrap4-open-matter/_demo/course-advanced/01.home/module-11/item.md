@@ -26,7 +26,7 @@ header_image_alt_text: 'Dampening and inking the plate'
 
 ### Assignments
 [Usability Tested Mockups](https://canvas.sfu.ca/courses/55288/assignments)  
-[Informed Consent Materials](https://canvas.sfu.ca/courses/55288/files)  
+[Informed Consent Materials]((https://canvas.sfu.ca/courses/55288/files)  
 
 ### Required Reading  
 [embedly]http://www.uxbooth.com/articles/accessibility-visual-design/[/embedly]
